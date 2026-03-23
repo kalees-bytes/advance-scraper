@@ -22,8 +22,8 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/web-scraper-pro
-cd web-scraper-pro
+git clone https://github.com/kalees-bytes/advance-scraper
+cd advance-scraper
 pip install -r requirements.txt
 playwright install chromium
 ```
@@ -34,52 +34,52 @@ playwright install chromium
 
 ```bash
 # Basic scrape (auto-detects everything)
-python advanced_scraper.py https://srmist.edu.in
+python advanced_scraper.py https://example.com
 
 # Specific modes
-python advanced_scraper.py https://srmist.edu.in --mode emails
-python advanced_scraper.py https://srmist.edu.in --mode links
-python advanced_scraper.py https://srmist.edu.in --mode tables
-python advanced_scraper.py https://srmist.edu.in --mode prices
+python advanced_scraper.py https://example.com --mode emails
+python advanced_scraper.py https://example.com --mode links
+python advanced_scraper.py https://example.com --mode tables
+python advanced_scraper.py https://example.com --mode prices
 
 # Export formats
-python advanced_scraper.py https://srmist.edu.in --output excel
-python advanced_scraper.py https://srmist.edu.in --output sqlite
-python advanced_scraper.py https://srmist.edu.in --output csv
+python advanced_scraper.py https://example.com --output excel
+python advanced_scraper.py https://example.com --output sqlite
+python advanced_scraper.py https://example.com --output csv
 
 # Force real browser (works on any JS site)
-python advanced_scraper.py https://srmist.edu.in --playwright
+python advanced_scraper.py https://example.com --playwright
 
 # Crawl multiple pages
-python advanced_scraper.py https://srmist.edu.in --pages 5
+python advanced_scraper.py https://example.com --pages 5
 
 # Custom CSS selectors
-python advanced_scraper.py https://books.toscrape.com --mode custom \
+python advanced_scraper.py https://example.com --mode custom \
   --selectors title=h3>a price=.price_color rating=.star-rating
 
 # Proxy rotation
-python advanced_scraper.py https://srmist.edu.in --proxy-file proxies.txt
+python advanced_scraper.py https://example.com --proxy-file proxies.txt
 
 # Login support
-python advanced_scraper.py https://site.com/login \
+python advanced_scraper.py https://example.com/login \
   --login user=myuser pass=mypassword
 
 # AI-powered content analysis
-python advanced_scraper.py https://srmist.edu.in --ai-parse \
+python advanced_scraper.py https://example.com --ai-parse \
   --ai-key YOUR_OPENAI_KEY
 
 # Change detection + Telegram alert
-python advanced_scraper.py https://srmist.edu.in --watch --notify telegram
+python advanced_scraper.py https://example.com --watch --notify telegram
 
 # Change detection + Email alert
-python advanced_scraper.py https://srmist.edu.in --watch \
+python advanced_scraper.py https://example.com --watch \
   --notify email --notify-target you@gmail.com
 
 # Scheduled scraping (runs daily at 9am)
-python advanced_scraper.py https://srmist.edu.in --schedule daily
+python advanced_scraper.py https://example.com --schedule daily
 
 # Every 30 minutes
-python advanced_scraper.py https://srmist.edu.in --schedule 30
+python advanced_scraper.py https://example.com --schedule 30
 ```
 
 ---
