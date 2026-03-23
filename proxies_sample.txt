@@ -1,0 +1,16 @@
+# proxies_sample.txt — rename to proxies.txt and add your proxies
+# One proxy per line. Formats supported:
+#
+#   ip:port
+#   http://ip:port
+#   http://user:password@ip:port
+#   socks5://ip:port
+#
+# Free proxy sources:
+#   https://proxyscrape.com/free-proxy-list
+#   https://www.proxy-list.download
+#
+# Example entries (not real — replace with your own):
+# 103.149.162.195:80
+# 191.96.42.80:3128
+# http://user:pass@proxy.example.com:8080

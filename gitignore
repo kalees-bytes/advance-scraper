@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Scraper outputs
+scraped_*.json
+scraped_*.csv
+scraped_*.xlsx
+scraped_*.db
+scraped_*.md
+scrape_history.json
+
+# Proxy files (may contain sensitive IPs)
+proxies.txt
+
+# Credentials / keys
+.env
+*.key
+secrets.txt
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
